@@ -1,0 +1,188 @@
+body{
+  text-align: center;
+}
+/* Headings */
+.priceHeading{
+  font-family: 'Montserrat-Black-900', sans-serif;
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 1.5;
+  color: #1d2d50;
+}
+.titleHeading{
+  font-family: 'Montserrat-Black-900', sans-serif;
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 1.5;
+  color: #1d2d50;
+  text-align: left;
+}
+.cardHeading{
+  font-family: 'Montserrat-Black-900', sans-serif;
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 1.5;
+  color: #1d2d50;
+}
+
+#title {
+  background-color: #98ded9;
+    padding: 3% 15%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+}
+
+/* Navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+  padding: 18px;
+  color: white;
+}
+
+/* Button */
+.d {
+  margin: 5% 5% 5% 0;
+}
+
+/* Bake Image */
+.bakeApp {
+  width: 28%;
+  position: absolute;
+  top: 20%;
+  right: 18%;
+  transform: rotate(15deg);
+}
+
+@media (max-width:1028px) {
+  .bakeApp {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature {
+  padding: 5%;
+}
+
+.feat {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #1d2d50;
+}
+
+.icon {
+  color: #98ded9;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #c8f7c8;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #98ded9;
+  padding: 7% 15%;
+}
+
+.testimonial-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.8;
+  color: white;
+}
+
+.testimonial-img1 {
+  border-radius: 100%;
+  width: 10%;
+}
+
+.testimonialimg2 {
+  border-radius: 100%;
+  width: 10%;
+}
+
+.yo {
+  color: white;
+}
+
+#press {
+  background-color: #98ded9;
+  padding: 0 0 5% 0;
+}
+
+.news {
+  width: 10%;
+  margin: 0 2%;
+}
+
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing */
+#pricing {
+  padding: 6% 5%;
+}
+
+.priceChoice {
+  color: #1d2d50;
+}
+
+.pricing-card-title {
+  color: #98ded9;
+}
+
+.pricing-card-title:hover {
+  color: #c8f7c8;
+}
+
+/* cta */
+#cta {
+  background-color: #98ded9;
+  padding: 7% 15%;
+}
+
+.ctaHeading {
+  font-family: 'Montserrat-Black-900', sans-serif;
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* F00ter */
+#footer {
+  padding: 7% 15%;
+}
+
+.footericon {
+  margin: 20px 10px;
+}
